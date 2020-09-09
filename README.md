@@ -7,7 +7,7 @@ However, these methods are fixed rule based approaches and lead to a lot of inef
 
 This project aims to propose a method to use AI as a means to dynamically process cheques, irrespective of what format they are in, and hence improve the efficiency as well as the accuracy of the system. This also enables small corporations to directly use their scanners to process cheques, and not buy expensive cheque reading machines that maybe limited to a particular format. 
 
-##Working
+## Working
 
 This project uses segmentation and OCR to extract data from the cheque and present them to the user. 
 
@@ -20,6 +20,9 @@ OCR for the MICR text is custom trained on a MICR based font data using several 
 
 U-Net is trained on self collected data of around 1000 check iamges, which was then manually labelled through the labelme tool. 
 
+Here's the demo of the Solution:
+
+![Demo](https://github.com/Mashex/AI-Cheque-Processing-System/blob/master/Demo.gif)
 ## Getting Started
 ```python 
 !cd Solution
